@@ -8,6 +8,7 @@ sequelize.sync().then(() => console.log('Database Ready!'))
 
 // pikirin
 const userEndpoint = require('./routes/users')
+const absensiEndpoint = require('./routes/absensi')
 
 // jangan dipikir
 const app = express()
@@ -16,6 +17,7 @@ app.use(express.json())
 
 // pikirin
 app.use('/users', userEndpoint)
+app.use('/absensi', absensiEndpoint)
 
 // jangan dipikir
 app.listen(port, () => console.log(`running server on port ${port}`))
