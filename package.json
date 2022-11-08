@@ -1,0 +1,26 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "server.js",
+  "scripts": {
+    "api": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "rest",
+    "api"
+  ],
+  "author": "raden taufik",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.0.0-rc.1",
+    "sequelize": "^6.25.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
